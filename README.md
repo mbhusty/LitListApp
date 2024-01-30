@@ -24,3 +24,13 @@
 * Includes Reactotron
 * Redux
 * Minimalistic interface
+
+##### Social network
+
++ My telegram channel - https://t.me/react_pain
+
+##### Support
+
++ Patreon - https://www.patreon.com/mbhusty
++ Boosty - https://boosty.to/mbhusty
+ 
