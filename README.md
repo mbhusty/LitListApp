@@ -3,9 +3,8 @@
 
 #### This is a React Native **LitList App** Project with Login by Google (Firebase)
 
-<img src="/Users/anisimov/Sites/react-native/LitListApp/assets/readme/screen2.png" width="256"/>
-<img src="/Users/anisimov/Sites/react-native/LitListApp/assets/readme/screen1.png" width="256"/>
-
+<img src="assets/readme/screen2.png" width="256"/>
+<img src="assets/readme/screen1.png" width="256"/>
 
 ##### This React Native LitList App starter contains a few key features:
 
