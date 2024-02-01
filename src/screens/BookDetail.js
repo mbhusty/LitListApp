@@ -5,7 +5,7 @@ import {
     StyleSheet, Text, Image, ScrollView, Button
 } from "react-native";
 import {COLORS, FONTS} from "../constants";
-import {getFirebaseApp} from "../utils/firebaseHelper";
+import {getFirebaseApp} from "../../utils/firebaseHelper";
 import {doc, getFirestore, updateDoc} from "firebase/firestore";
 import {Picker} from "@react-native-picker/picker";
 const BookDetailScreen = ({route}) => {

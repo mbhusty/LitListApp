@@ -1,8 +1,8 @@
 import React, {useCallback} from "react";
 import {View, Button, SafeAreaView, Text, Image} from "react-native";
 import {useDispatch, useSelector} from "react-redux";
-import {clearUser} from "../store/user/actions";
-import {getFirebaseApp} from "../utils/firebaseHelper";
+import {clearUser} from "../../store/user/actions";
+import {getFirebaseApp} from "../../utils/firebaseHelper";
 import {getAuth} from "firebase/auth";
 import {useNavigation} from "@react-navigation/native";
 
@@ -16,7 +16,7 @@ const ProfileScreen = ({navigation}) => {
       const auth = getAuth(app);
 
       dispatch(clearUser());
-      navigation.navigate('MainScreen');
+      navigation.navigate('Welcome');
       await auth.signOut();
 
     } catch (error) {

@@ -4,7 +4,7 @@ import {
     SafeAreaView, ScrollView, StyleSheet,
     Text, View
 } from "react-native";
-import {getFirebaseApp} from "../utils/firebaseHelper";
+import {getFirebaseApp} from "../../utils/firebaseHelper";
 import {collection, doc, getDocs, getFirestore, query, updateDoc, where} from "firebase/firestore";
 import Loader from "../components/Loader";
 import {COLORS, FONTS} from "../constants";

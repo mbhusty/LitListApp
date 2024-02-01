@@ -1,7 +1,7 @@
 import {Alert, Image, StyleSheet, Text, View, Button} from 'react-native'
 import React from 'react'
 import {COLORS, FONTS, images, SIZES} from '../constants'
-import {getFirebaseApp} from "../utils/firebaseHelper";
+import {getFirebaseApp} from "../../utils/firebaseHelper";
 import {getAuth, GoogleAuthProvider, signInWithCredential} from "firebase/auth";
 import {GoogleSignin} from "@react-native-google-signin/google-signin";
 

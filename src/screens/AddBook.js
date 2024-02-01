@@ -14,7 +14,7 @@ import {
     Modal,
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
-import {getFirebaseApp} from "../utils/firebaseHelper";
+import {getFirebaseApp} from "../../utils/firebaseHelper";
 import {addDoc, collection, getFirestore} from "firebase/firestore";
 import axios from 'axios';
 import {COLORS, FONTS, SIZES} from "../constants";
@@ -87,8 +87,8 @@ const AddBook = ({route}) => {
     };
 
     return (
-        <SafeAreaView style={styles.container}>
-            <View style={styles.top}>
+        <View style={styles.container}>
+
                 <View style={styles.search}>
                     <TextInput
                         keyboardType={'web-search'}
@@ -101,7 +101,7 @@ const AddBook = ({route}) => {
                 </View>
 
                 <Button title="Поиск" onPress={handleSearchBook}/>
-            </View>
+
             {loading ? (
                 <Loader/>
             ) : (
@@ -174,7 +174,7 @@ const AddBook = ({route}) => {
                     </View>
                 </View>
             </Modal>
-        </SafeAreaView>
+        </View>
     );
 };
 

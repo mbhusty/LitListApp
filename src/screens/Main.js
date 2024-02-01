@@ -5,7 +5,7 @@ import {
     StyleSheet, Text, Image, TouchableOpacity
 } from "react-native";
 import React, {useEffect, useState} from "react";
-import {getFirebaseApp} from "../utils/firebaseHelper";
+import {getFirebaseApp} from "../../utils/firebaseHelper";
 import {
     getDoc,
     addDoc,
